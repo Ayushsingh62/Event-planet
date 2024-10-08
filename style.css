@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+.navbar{
+    width: 100%;
+    height: 500px;
+    /* display: flex;
+    align-items: first baseline;
+    justify-content: space-around; */
+    background-image: url(./images/event-planet-indore.jpeg);
+    background-position: center;
+    background-size: cover;
+ 
+}
+.nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    text-align: center;
+    align-items: first baseline;
+    justify-content: center;  
+    background-color: rgba(34, 22, 42, 0.858);
+    img{
+        width: 10%;
+        height: auto;
+        position: relative;
+        top: 20px;
+       
+    }
+     ul{
+        width: 30%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 400px;
+        font-size: 16px;
+        font-weight: 600;
+        color: white;
+        list-style: none;
+       
+    }
+    li:hover{
+        color: rgb(253,34,99);
+        text-decoration: underline;
+      
+        transform: scale(1.05);
+    }
+
+    button{
+        height: 30px;
+        width: 30px;
+        background-color: rgb(20,8,31);
+        border: none;
+        border-radius: 8px;
+    }
+
+}
+.image-section{
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    h1{
+       font-size: 42px;
+       font-weight: 400;
+       color: rgb(35,35,35);
+       font-family: "Belleza", sans-serif;
+       margin-top: 50px;
+    }
+    p{
+        font-size: 14px;
+        font-weight: 400;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+        margin-top: 30px;
+    }
+   
+.image-one{
+width: 80%;
+height: auto;
+display: flex;
+align-items: center;
+justify-content: space-around;
+margin-top: 30px;
+ h1{
+    margin-left: 70px;
+        color:rgb(35,35,71);
+        background-color: white;
+        height: 60px;
+        width: 200px;
+    position: relative;
+    top: 180px;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "Belleza", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    }
+
+    h1:hover{
+        background-color: rgb(253,34,106);
+        color: white;
+    }
+}
+.box-one{
+    height: 260px;
+    width: 350px;
+    background-image: url(./images/blog-01.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.box-two{
+    height: 260px;
+    width: 350px;
+    background-image: url(./images/blog-02.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.box-three{
+    height: 260px;
+    width: 350px;
+    background-image: url(./images/blog-03.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.image-two{
+    width: 80%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 80px;
+     h1{
+        margin-left: 70px;
+            color:rgb(35,35,71);
+            background-color: white;
+            height: 60px;
+            width: 200px;
+        position: relative;
+        top: 180px;
+        font-size: 24px;
+        font-weight: 400;
+        font-family: "Belleza", sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px;
+        }
+    
+        h1:hover{
+            background-color: rgb(253,34,106);
+            color: white;
+        }
+    
+    .box-one{
+        height: 260px;
+        width: 350px;
+        background-image: url(./images/blog-04.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    .box-two{
+        height: 260px;
+        width: 350px;
+        background-image: url(./images/blog-05.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    .box-three{
+        height: 260px;
+        width: 350px;
+        background-image: url(./images/blog-01.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+}
+}
