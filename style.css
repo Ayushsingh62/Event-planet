@@ -499,16 +499,20 @@ margin-bottom: 20px;
         display:inline-block;
         
         img{
-        height: 20px;
-        width: 20px;      
+        height: 10%;
+        width: 10%;      
         }
       
     }
    
+
+    .imge img{
+        width: 20px;
+    }
     .nav {
-        flex-direction: column; /* Stack items vertically */
-        align-items: center; /* Center items */
-        height: auto; /* Adjust height */
+        flex-direction: column;
+        align-items: center;
+        height: auto; 
         flex-wrap: wrap;
         height: 130px;
         display: flex;
@@ -523,32 +527,33 @@ margin-bottom: 20px;
             display: none;
         }
         img{
-            height: 100px;
-            width: 150px;
+            /* height: 100px; */
+            /* width: 150px; */
             margin-bottom: 30px;
         }
     }
 
     ul {
-        flex-direction: column; /* Stack menu items */
-        margin-left: 0; /* Remove left margin */
-        width: 100%; /* Full width */
+        flex-direction: column; 
+        margin-left: 0; 
+        width: 100%; 
     }
 
     li {
-        margin: 10px 0; /* Space out menu items */
-        text-align: center; /* Center align text */
+        margin: 10px 0; 
+        
+        text-align: center;
     }
 
     .image-one, .image-two {
-        flex-direction: column; /* Stack image boxes vertically */
+        flex-direction: column;
         align-items: center; 
-        flex-wrap: wrap;/* Center align boxes */
+        flex-wrap: wrap;
     }
 
     .box-one, .box-two, .box-three {
-        width: 90%; /* Adjust width for smaller screens */
-        margin-bottom: 20px; /* Add space between boxes */
+        width: 90%; 
+        margin-bottom: 20px; 
     }
 
     h1 {
